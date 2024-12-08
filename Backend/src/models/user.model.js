@@ -1,8 +1,8 @@
-import { Schema } from "mongoose";
+import mongoose,{ Schema } from "mongoose";
 
 const userSchema = new Schema({
     name: {
-        typ: String,
+        type: String,
         required: true
     },
     username: {
